@@ -1,0 +1,46 @@
+[
+  {
+    "id": "parse",
+    "state": "completed",
+    "stateTimestamp": 1624256368834
+  },
+  {
+    "id": "transform",
+    "state": "completed",
+    "stateTimestamp": 1624256368834
+  },
+  {
+    "id": "validate",
+    "state": "completed",
+    "stateTimestamp": 1624256368834
+  },
+  {
+    "id": "enrich",
+    "state": "failed",
+    "stateTimestamp": 1624256368834,
+    "errors": [
+      {
+        "id": "44337e22-3840-4db7-874c-d8314b237cec",
+        "permanent": false,
+        "temporaryMessage": "Failed to enrich adaptiv message TradeId: MXC000005643, Security id does not exists in Adaptiv 1099005JPJPY",
+        "description": "Verify error"
+      },
+      {
+        "id": "8d155fc4-a308-4e16-b6e7-d29bd7ab241b",
+        "permanent": false,
+        "temporaryMessage": "Failed to enrich adaptiv message TradeId: MXC000005643, Security id does not exists in Adaptiv 1099005JPJPY",
+        "description": "Verify error"
+      }
+    ]
+  },
+  {
+    "id": "verify",
+    "state": "completed",
+    "stateTimestamp": 1624256368834
+  },
+  {
+    "id": "sendToAdaptiv",
+    "state": "waiting",
+    "stateTimestamp": 1624256368834
+  }
+]
