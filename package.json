@@ -1,5 +1,5 @@
 {
-  "name": "bpnm-server",
+  "name": "bpmn-server",
   "version": "1.0.0",
   "description": "Middleware for bpnm-frontend",
   "main": "app.js",
