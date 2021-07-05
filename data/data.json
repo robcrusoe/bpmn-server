@@ -10,12 +10,12 @@
     "stateTimestamp": 1624256368834
   },
   {
-    "id": "validate",
+    "id": "enrich",
     "state": "completed",
     "stateTimestamp": 1624256368834
   },
   {
-    "id": "enrich",
+    "id": "validate",
     "state": "failed",
     "stateTimestamp": 1624256368834,
     "errors": [

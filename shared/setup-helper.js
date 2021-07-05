@@ -47,6 +47,42 @@ export function getStateHash(data) {
   return collection;
 };
 
+export function getStroke(state) {
+  let stroke;
+
+  switch (state) {
+    case 'OK':
+      stroke = '#2a9d8f';
+      break;
+    case 'FAILED':
+      stroke = '#e63946';
+      break;
+    case 'PENDING':
+      stroke = '#1e88e5';
+      break;
+  }
+
+  return stroke;
+}
+
+export function getFill(state) {
+  let fill;
+
+  switch (state) {
+    case 'OK':
+      fill = '#e3eae3';
+      break;
+    case 'FAILED':
+      fill = '#ffe4e1';
+      break;
+    case 'PENDING':
+      fill = '#bbdefb';
+      break;
+  }
+
+  return fill;
+}
+
 export function getTaskState(state) {
   let taskState;
 
